@@ -12,8 +12,6 @@ Este repositório contém os testes de automação desenvolvidos utilizando o Cy
 * **[npm](https://www.npmjs.com/)**: Gerenciador de pacotes.
 * **[Git](https://git-scm.com/)**: Sistema de controle de versão.
 * **[GitHub](https://github.com/)**: Plataforma para hospedagem de código.
-* **[cypress-xpath](https://github.com/cypress-io/cypress-xpath)** (Opcional, se você usou): Plugin para suporte a seletores XPath.
-
 ---
 
 ## 🌐 Aplicações Testadas
