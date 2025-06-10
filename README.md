@@ -90,6 +90,7 @@ Rodar apenas os testes de API:
 Bash
 
 npx cypress run --spec "cypress/e2e/api/*"
+
 🧪 Cenários de Teste Implementados
 Testes E2E (Frontend)
 Os testes de frontend interagem com a interface do usuário em https://front.serverest.dev/.
@@ -105,10 +106,6 @@ Limpeza de Dados: Uso de before, after, beforeEach e afterEach para configurar o
 Assertivas Claras: As assertivas são específicas e verificam o comportamento esperado (status codes, mensagens de sucesso/erro, presença de elementos).
 Estrutura de Pastas Organizada: Segue uma estrutura lógica para separar testes de frontend, API, page objects, etc.
 Mensagens de Commit Descritivas: Histórico de commits claro e informativo.
-🛠️ Extensões e Plugins Adicionais (Se Aplicável)
-cypress-xpath: Utilizado para [explique brevemente por que você usou, se usou].
-📄 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes. (Se você criou um, senão remova esta seção ou adicione uma licença de sua escolha).
 
 🤝 Contribuição
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, por favor, abra uma issue ou envie um pull request.
