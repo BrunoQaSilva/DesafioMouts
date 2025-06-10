@@ -32,33 +32,8 @@ Para rodar os testes neste projeto, siga os passos abaixo:
     ```
 
 2.  **Instalar as dependências:** (NAO NECESSARIO, POIS NAO USEI GIT IGNORE)
-    Porem para garantir: Certifique-se de ter o Node.js e o npm instalados. Em seguida, instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-
-3.  **Configuração do Cypress (opcional, se você quiser mudar variáveis de ambiente):**
-    O arquivo `cypress.config.js` contém as configurações base do Cypress, incluindo as URLs das aplicações.
-    ```javascript
-    // cypress.config.js
-    const { defineConfig } = require('cypress')
-
-    module.exports = defineConfig({
-      e2e: {
-        baseUrl: '[https://front.serverest.dev/](https://front.serverest.dev/)',
-        setupNodeEvents(on, config) {
-          // implement node event listeners here
-        },
-        specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
-      },
-      env: {
-        apiUrl: '[https://serverest.dev](https://serverest.dev)', // URL base da API
-      },
-      // ... outras configurações
-    })
-    ```
-
----
+    Porem para garantir: Certifique-se de ter o Node.js e o npm instalados. Em seguida, instale as dependências do 
+    
 
 ## ▶️ Como Rodar os Testes
 
